@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> <Gabriel Matias/> - Portfólio</title>
+    <meta name="description" content="Cientista da Computação, Desenvolvedor Junior, Dev Full Stack">
+    <meta name="keywords" content="Front end developer, HTML,CSS,XML,JavaScript, React Js, React Native Node Js, jquery, bootstrap4, figma, adobe xd, php, sql, banco de dados, portfolio, ui, ux, designer, faculdade, ios, wordpress, loja virtual, e-commerce, aplicativos, aplicações, software, stackoverflow, git, github, thiago, santos, analista de sistemas, nerd, ciencia da computacao, tecnologias, ferramentas, projetos, dinamico, web design, developer, desenvolvimento, desenvolvedor, Salvador, desenvolvedor web,  Desenvolvedor Front end, programador, back end, indexTobe, linguagens de programação">
+    <meta name="author" content="Gabriel Matias">
+    <meta name="copyright" content="© 2021 Gabriel Matias" />
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon" sizes="32x3">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    
+</head>
+<body class="show">
+    <header>
+        <a href="#home" class="logo"> Console.log(" Gabriel Matias ")</a>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#sobre-mim" onclick="toggleMenu()">About me</a></li>
+            <li><a href="#tecnologias" onclick="toggleMenu()">Technologies</a></li>
+            <li><a href="#projetos" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contato" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="home">
+        <div style="display: flex; align-items: center; gap:6rem ;">
+            <div class="textBx" style="animation: slide-bottom 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;">
+                <h2>Hello, I'm<br><span>< Gabriell.Matias /></span></h2>
+                <h3 id="result"></h3>
+                <h3 id="log"></h3>
+                <a href="https://github.com/GabriellMatias" class="btn" >Github <i class="fab fa-github fa-lg" style="margin-left:8px;"></i></a>
+            </div>
+            <div class="gifImage">
+                <img src="./image/gifMatias.gif" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="sobre-mim" id="sobre-mim">
+        <div>
+            <div class="heading">
+                <h2 data-anime="top">About me</h2>
+            </div>
+            <div class="content">
+                <div class="contentBx w50">
+                    <h3 data-anime="top"><strong style="color: #00BFFF;">I'm Full Stack Developer Jr.</strong></h3>
+                    <p data-anime="top">I`m 20 years old. I`ve started to program in 2020, since this i always trying to learn something</p><br>
+                    <p data-anime="top">Today i`m a full stack developer. Specializing in <strong style="color: #00BFFF;">React JS.</strong> on the frontEnd and node and/or python on the backEnd</p><br>
+                    <p data-anime="top"> I’m cursing Computer Sience in Universidade Catolica de Brasilia [UCB]. I’m in the 5 semester, I also study a lot of web courses like alura, curso em video and Rocketseat.</p><br>
+                    <a data-anime="top" href="https://www.linkedin.com/in/gabriell-matias-03b98421a/" target="_blank" class="btn curriculo" style="text-align: center;">check out my Linkedin<i class="fab fa-linkedin fa-lg" style="padding-left: 18px; color: white;"></i></a><br><br>
+                </div>
+                <div class="w50">
+                    <img data-anime="left" src="image/perfilImg.jpeg" width="350" class="img img-th" alt="Thiago Santos">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!--Tecnologias-->
+    <section class="tecnologias" id="tecnologias">
+        <div class="heading white">
+            <h2 data-anime="top">Technologies 🧑‍💻</h2>
+            <p data-anime="top" style= "letter-spacing: 0.3em; font-size: 25px;">Check out the technologies that i have experience!</p>
+            <div data-anime="top">
+                <hr  style="width: 100%; border: 0; height: 1px; background: #000;opacity: 0.1;">
+            </div>
+        </div>
+        <div class="content">
+
+            <div data-anime="top1" class="tecnologiasBx">
+                <i class="fab fa-react fa-lg" style="font-size:50px; color:#5ed3f3;"> </i>
+                <h2>React Js</h2>
+                <p>Library used to build web applications.</p>
+            </div>
+
+            <div data-anime="top2" class="tecnologiasBx">
+                <span class="iconify" data-icon="logos:typescript-icon" style="font-size:50px;"></span>
+                <h2>TypeScript</h2>
+                <p>It is a written syntactic superset of JavaScript and adds optional static typing to the language.</p>
+            </div>
+
+
+            <div data-anime="top3" class="tecnologiasBx">
+                <i class="fab fa-js fa-lg" style="font-size:50px; color:#efd81d;"> </i>
+                <h2>JavaScript</h2>
+                <p>A high-level language with weakly dynamic typing and multiparadigm.
+                </p>
+            </div>
+            
+
+            <div data-anime="top4" class="tecnologiasBx">
+                <i class="fab fa-python fa-lg" style="font-size:50px;"> </i>
+                <h2>Python</h2>
+                <p>Programming language used for back end and data science</p>
+            </div>
+
+            <div data-anime="top5" class="tecnologiasBx">
+                <span class="iconify" data-icon="vscode-icons:file-type-styled" style="font-size:50px; color:#318CE7;"></span>
+                <h2>Styled Components</h2>
+                <p>A library that uses the concept of CSS-in-JS, allows you to write CSS codes inside Javascript.</p>
+            </div>
+
+            <div data-anime="top6" class="tecnologiasBx">
+                <span class="iconify" data-icon="vscode-icons:file-type-tailwind" style="font-size:50px; color:#318CE7;"></span>
+                <h2>TailwindCSS</h2>
+                <p>Tailwind is a CSS framework that allows you to create layouts for your web applications using its structure.</p>
+            </div>
+
+            <div data-anime="top7" class="tecnologiasBx">
+                <span class="iconify" data-icon="vscode-icons:file-type-next" style="font-size:50px; color:#318CE7;"></span>
+                <h2>NextJS</h2>
+                <p>
+                    One of the best frameworks to work with in react with SSR and SPA apps</p>
+            </div>
+            
+
+            <div data-anime="top8" class="tecnologiasBx">
+                <i class="fab fa-node-js fa-lg" style="font-size:50px; color:#689f63;"> </i>
+                <h2>Node Js</h2>
+                <p>Runs JavaScript codes on the backend/server and APIs.</p>
+            </div>
+
+            <div data-anime="top9" class="tecnologiasBx">
+                <span class="iconify" data-icon="grommet-icons:figma" style="font-size:50px" ></span>
+                <h2>Figma</h2>
+                <p>
+                    It is a vector graphic editor and prototyping design projects</p>
+            </div>
+        </div>
+
+        <div class="heading white">
+            <p data-anime="top" style= " font-size: 25px; padding-top: 100px;">Other technologies i current study 📚</p>
+            <div data-anime="top">
+                <hr  style="width: 100%; border: 1px dotted #000;opacity: 0.2;">
+            </div>
+        </div>
+
+        <div class="content">
+
+            <div data-anime="top1" class="tecnologiasBx">
+                <i class="fab fa-react fa-lg" style="font-size:50px; color:#5ed3f3;"> </i>
+                <h2>React Native</h2>
+                <p>Framework for developing apps for Android and iOS natively.</p>
+            </div>
+
+            <div data-anime="top2" class="tecnologiasBx">
+                <i class="fa fa-project-diagram fa-lg" style="font-size:50px; color:#5ed3f3;"> </i>
+                <h2>GraphQl</h2>
+                <p>GraphQL provides a complete and understandable description of the data in your API. makes it easier to evolve APIs over time.</p>
+            </div>
+
+            <div data-anime="top3" class="tecnologiasBx">
+                <i class="fab fa-wordpress" style="font-size:50px; color:#207196;"> </i>
+                <h2>WordPress</h2>
+                <p>A free and open content management system for the internet, based on PHP with MySQL database</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <!--Projetos-->
+    <section class="projetos" id="projetos">
+        <div class="heading">
+            <h2 data-anime="top">Front-End Projects</h2>
+            <p data-anime="top" style= "letter-spacing: 0.3em; font-size: 25px;">See my front-end main projects 🚀</p>
+            <div data-anime="top">
+                <hr  style="width: 100%; border: 0; height: 1px; background: #000;opacity: 0.1;">
+            </div>
+        </div>
+        <div class="content">
+
+            <div data-anime="top1" class="projetosBx">
+                <img class="hover-shadow cursor" src="https://user-images.githubusercontent.com/80908772/207136403-9557ed64-8f91-4a7f-b1a2-9b52883b9d7a.png" alt="Event Plataform">
+                <div>
+                    <div class="overlay">
+                        <h3 class="text">Event Plataform<br><span class="text-span">React JS</span></h3>
+                        <ul class="sci">
+                            <!-- <li style="--i:1;"><a class="cell"><i onclick="openModal();currentSlide(1)" class="fas fa-play"></i></a></li> -->
+                            <li style="--i:1;"><a class="zoom-in"><i onclick="openModal();currentSlide(2)" class="fas fa-rocket"></i></a></li>
+                            <li style="--i:2;"><a href="https://github.com/ThiagoSantosTh/layoutNetflix" target="_blank"><i class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div data-anime="top2" class="projetosBx" >
+                <img class="hover-shadow cursor" src="https://user-images.githubusercontent.com/80908772/213805044-277ae9ed-0b6c-4447-93ed-5f5ec0a0c3a9.png" alt="Ignite Shop">
+                <div>
+                    <div class="overlay">
+                        <h3 class="text">Ignite Shop<br><span class="text-span">React JS</span></h3>
+                        <ul class="sci">
+                            <li style="--i:1;"><a class="zoom-in"><i onclick="openModal();currentSlide(2)" class="fas fa-rocket"></i></a></li>
+                            <li style="--i:2;"><a href="https://github.com/GabriellMatias/Ignite-Shop" target="_blank"><i class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div data-anime="top3" class="projetosBx">
+                <img class="hover-shadow cursor" src="https://user-images.githubusercontent.com/80908772/203875712-e3df3e3b-936b-4449-b2be-3842a69f8042.png" alt="Pepsi Dark Mode">
+                <div>
+                    <div class="overlay">
+                        <h3 class="text">Coffe Delivery<br><span class="text-span">React JS</span></h3>
+                        <ul class="sci">
+                            <!-- <li style="--i:1;"><a class="cell"><i onclick="openModal();currentSlide(1)" class="fas fa-play"></i></a></li> -->
+                            <li style="--i:1;"><a class="zoom-in"><i onclick="openModal();currentSlide(1)" class="fas fa-rocket"></i></a></li>
+                            <li style="--i:2;"><a href="https://github.com/ThiagoSantosTh/ProjetoPepsi" target="_blank"><i class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div data-anime="top4" class="projetosBx">
+                <img class="hover-shadow cursor"  src="https://user-images.githubusercontent.com/80908772/210667076-7a7eb9e0-4169-4785-b716-d09fdb45d893.png" alt="SpaceTraveling Blog">
+                <div>
+                    <div class="overlay">
+                        <h3 class="text">SpaceTraveling Blog<br><span class="text-span">React JS / PrismiCMS</span></h3>
+                        <ul class="sci">
+                            <li style="--i:1;"><a class="zoom-in"><i onclick="openModal();currentSlide(2)" class="fas fa-rocket"></i></a></li>
+                            <li style="--i:2;"><a href="https://github.com/GabriellMatias/Space-Traveling-Blog" target="_blank"><i class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div data-anime="top5" class="projetosBx">
+                <img class="hover-shadow cursor" style="height: full; width: full;" src="https://user-images.githubusercontent.com/80908772/197081912-3dfe7212-0b84-41a1-aa51-2ab299dc9ae1.png" alt=World Trip WebsitePomodoro Timer">
+                <div>
+                    <div class="overlay">
+                        <h3 class="text">Pomodoro timer<br><span class="text-span">React JS</span></h3>
+                        <ul class="sci">
+                            <li style="--i:1;"><a class="zoom-in"><i onclick="openModal();currentSlide(2)" class="fas fa-rocket"></i></a></li>
+                            <li style="--i:2;"><a href="https://github.com/GabriellMatias/Pomodoro-Timer" target="_blank"><i class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div data-anime="top6" class="projetosBx">
+                <img class="hover-shadow cursor" style="height: full; width: full;"  src="https://user-images.githubusercontent.com/80908772/212419214-40607703-9785-499b-a313-c50865d4cc55.png" alt="Dash Go Plataform">
+                <div>
+                    <div class="overlay">
+                        <h3 class="text">Dash Go WebSite<br><span class="text-span">React JS / Chakra UI</span></h3>
+                        <ul class="sci">
+                            <!-- <li style="--i:1;"><a class="cell"><i onclick="openModal();currentSlide(1)" class="fas fa-play"></i></a></li> -->
+                            <li style="--i:1;"><a class="zoom-in"><i onclick="openModal();currentSlide(2)" class="fas fa-rocket"></i></a></li>
+                            <li style="--i:2;"><a href="https://github.com/GabriellMatias/DashGo-Website" target="_blank"><i class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+           
+            <div data-anime="top7" class="projetosBx">
+                <img class="hover-shadow cursor" style="height: full; width: full;"  src="https://user-images.githubusercontent.com/80908772/202796071-1b714cea-4646-41aa-92fb-b7c56394ff72.png" alt="Go Restaurant">
+                <div>
+                    <div class="overlay">
+                        <h3 class="text">Go Restaurant<br><span class="text-span">React JS</span></h3>
+                        <ul class="sci">
+                            <li style="--i:1;"><a class="zoom-in"><i onclick="openModal();currentSlide(2)" class="fas fa-rocket"></i></a></li>
+                            <li style="--i:2;"><a href="https://github.com/GabriellMatias/GoRestaurant-Website" target="_blank"><i class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-anime="top8" class="projetosBx">
+                <img class="hover-shadow cursor" style="height: full; width: full;"  src="https://user-images.githubusercontent.com/80908772/200186782-e68d1a7a-f5b9-4ed8-8409-00dc994e81da.png" alt="Rocket Shoes">
+                <div>
+                    <div class="overlay">
+                        <h3 class="text">Rocket Shoes<br><span class="text-span">React JS</span></h3>
+                        <ul class="sci">
+                            <li style="--i:1;"><a class="zoom-in"><i onclick="openModal();currentSlide(2)" class="fas fa-rocket"></i></a></li>
+                            <li style="--i:2;"><a href="https://github.com/GabriellMatias/RocketShoes-E-commerce" target="_blank"><i class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-anime="top9" class="projetosBx">
+                <img class="hover-shadow cursor" style="height: full; width: full;"  src="https://user-images.githubusercontent.com/80908772/216443422-60bbe7f7-d1e8-467d-a750-d30760e1abf2.png" alt="World Trip Website
+                World Trip Website">
+                <div>
+                    <div class="overlay">
+                        <h3 class="text">World Trip Website<br><span class="text-span">React JS / Chakra UI</span></h3>
+                        <ul class="sci">
+                            <li style="--i:1;"><a class="zoom-in"><i onclick="openModal();currentSlide(2)" class="fas fa-rocket"></i></a></li>
+                            <li style="--i:2;"><a href="https://github.com/GabriellMatias/World-Trip-Website" target="_blank"><i class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div data-anime="top10" class="projetosBx">
+                <img class="hover-shadow cursor" src="https://user-images.githubusercontent.com/80908772/210159114-67dd0b1a-1ed4-4d6f-be58-7c04c6e6223e.png" alt="Github Blog">
+                <div>
+                    <div class="overlay">
+                        <h3 class="text">Github Blog<br><span class="text-span">TypeScript / React JS</span></h3>
+                        <ul class="sci">
+                            <li style="--i:1;"><a class="zoom-in"><i onclick="openModal();currentSlide(2)" class="fas fa-rocket"></i></a></li>
+                            <li style="--i:2;"><a href="https://github.com/GabriellMatias/Github-Blog" target="_blank"><i class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div data-anime="top11" class="projetosBx">
+                <img class="hover-shadow cursor" src="https://user-images.githubusercontent.com/80908772/231209576-c4bdff85-9225-4404-83d0-f6959885a89b.png" alt="Dt Money Finances">
+                <div>
+                    <div class="overlay">
+                        <h3 class="text">Dt Money Finances<br><span class="text-span">Typescript / React JS</span></h3>
+                        <ul class="sci">
+                            <li style="--i:1;"><a class="zoom-in"><i onclick="openModal();currentSlide(2)" class="fas fa-rocket"></i></a></li>
+                            <li style="--i:2;"><a href="https://github.com/GabriellMatias/DtMoney-Finance" target="_blank"><i class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div data-anime="top12" class="projetosBx">
+                <img class="hover-shadow cursor" src="https://user-images.githubusercontent.com/80908772/207341261-73769e97-4002-484e-886e-e2a0876385ac.png" alt="Calculadora">
+                <div>
+                    <div class="overlay">
+                        <h3 class="text">Ignite News Blog<br><span class="text-span" id="em-breve" >React JS / Stripe
+                        </span></h3>
+                        <ul class="sci">
+                            <li style="--i:1;"><a class="zoom-in"><i onclick="openModal();currentSlide(2)" class="fas fa-rocket"></i></a></li>
+                            <li style="--i:2;"><a href="https://github.com/GabriellMatias/IgniteNews-Blog" target="_blank"><i class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section class="projetos" id="projetos">
+        <div class="heading">
+            <h2 data-anime="top">Back-End Projects</h2>
+            <p data-anime="top" style= "letter-spacing: 0.3em; font-size: 25px;">See my back-end main projects 🚀</p>
+            <div data-anime="top">
+                <hr  style="width: 100%; border: 0; height: 1px; background: #000;opacity: 0.1;">
+            </div>
+        </div>
+        <div class="content">
+
+            <div data-anime="top7" class="projetosBx">
+                <img class="hover-shadow cursor" style="height: full; width: full;" src="https://user-images.githubusercontent.com/80908772/231205570-1ee0b3d1-9fc7-4cd7-aaa8-0b124176c29f.png" alt="Users CRUD API">
+                <div>
+                    <div class="overlay">
+                        <h3 class="text">Users CRUD API<br><span class="text-span">Node JS</span></h3>
+                        <ul class="sci">
+                            <li style="--i:1;"><a class="zoom-in"><i onclick="openModal();currentSlide(4)" class="fas fa-plus-circle"></i></a></li>
+                            <li style="--i:2;"><a href="https://github.com/GabriellMatias/User-API-Boosted" target="_blank"><i class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div data-anime="top8" class="projetosBx">
+                <img class="hover-shadow cursor" src="https://logosmarcas.net/wp-content/uploads/2021/10/Python-Emblema.jpg" alt="Barbearia">
+                <div>
+                    <div class="overlay">
+                        <h3 class="text">Python Automations<br><span class="text-span">Python / Pandas <br/>
+                            [Private repository - 
+                            Internal business projects]</span></h3>
+                        <ul class="sci">
+                            <li style="--i:2;"><a href="#" target="_blank"><i class="fab fa-github" style="color: red;"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div data-anime="top9" class="projetosBx">
+                <img class="hover-shadow cursor" style="height: full; width: full;" src="https://user-images.githubusercontent.com/80908772/231206464-0b662aa8-51d1-4b1c-b852-227903a084b1.png" alt="Car API">
+                <div>
+                    <div class="overlay">
+                        <h3 class="text">Car API<br><span class="text-span">Node JS</span></h3>
+                        <ul class="sci">
+                            <li style="--i:1;"><a class="zoom-in"><i onclick="openModal();currentSlide(6)" class="fas fa-plus-circle"></i></a></li>
+                            <li style="--i:2;"><a href="https://github.com/GabriellMatias/ignite-NodeJS-Modulo-02" target="_blank"><i class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        <div class="heading repositorio">
+            <a data-anime="top" href="https://github.com/ThiagoSantosTh?tab=repositories" target="_blank">under construction... ⚒️</a>
+        </div>
+        
+    </section>
+
+    <section class="contato" id="contato">
+        <div class="heading">
+            <h2 data-anime="top">Contact</h2>
+            <p data-anime="top" style= "letter-spacing: 0.2em; font-size: 25px;">Where you can find me</p>
+            <div class="redes-sociais">
+                <ul data-anime="buttom" class="icons">
+                    <li ><a href="https://instagram.com/gabriellmatiaz?igshid=MTIzZWQxMDU=" class="fab fa-instagram fa-2x" target="_blank"></a></li>
+                    <li><a  href="https://www.linkedin.com/in/gabriell-matias-03b98421a/" class="fab fa-linkedin fa-2x" target="_blank"></a></li>
+                    <li><a  href="https://github.com/gabriellMatias" target="_blank" class="fab fa-github fa-2x"></a></li>
+                    <li><a  href="mailto:gabriel.goiasat@gmail.com" class="far fa-envelope fa-2x"></a></li>
+                    <li><a  href="https://wa.me/5561993916872" class="fab fa-whatsapp fa-2x"></a></li>
+                </ul>
+                <p data-anime="bottom" style="margin-top: 50px;">If you wanna talk, <br> Please contact me!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Footer -->
+    <a onclick="topFunction()" id="back-to-top" title="Go to top"><i class="fas fa-chevron-up"></i></a>
+
+    <!--Footer-->
+    <div class="footer">
+        <p>Copyright &copy; <span id="hora"></span> Gabriel Matias  | All rights reserved.</p>
+    </div>
+
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
